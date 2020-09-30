@@ -5,6 +5,7 @@ import com.carouseldemo.controls.CarouselAdapter;
 import com.carouseldemo.controls.CarouselAdapter.OnItemClickListener;
 import com.carouseldemo.controls.CarouselAdapter.OnItemSelectedListener;
 import com.carouseldemo.controls.CarouselItem;
+import com.dalong.library.view.LoopRotarySwitchView;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -29,6 +30,11 @@ public class MainActivity extends Activity {
 						((CarouselItem)parent.getChildAt(position)).getName()), 
 						Toast.LENGTH_SHORT).show();				
 			}
+//			mLoopRotarySwitchView
+//					.setR(300)//设置R的大小
+//					.setAutoRotation(true)//是否自动切换
+//               .setAutoScrollDirection(LoopRotarySwitchView.AutoScrollDirection.left)//切换方向
+//               .setAutoRotationTime(2000);//自动切换的时间  单位毫秒
         	
         });
 

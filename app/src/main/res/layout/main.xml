@@ -9,7 +9,7 @@
         android:id="@+id/selected_item"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_weight="0.7"
+        android:layout_weight="1"
         android:background="#1E1921"
         android:text="text"
         android:textColor="#A85E4F"
@@ -32,4 +32,28 @@
             app:SelectedItem="0"
             app:UseReflection="true" />
     </LinearLayout>
+    <com.dalong.library.view.LoopRotarySwitchView
+        android:id="@+id/mLoopRotarySwitchView"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        app:direction="right"
+        android:layout_height="0dp">
+        <ImageView
+            android:src="@drawable/cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.dalong.library.view.LoopRotarySwitchView>
 </LinearLayout>
